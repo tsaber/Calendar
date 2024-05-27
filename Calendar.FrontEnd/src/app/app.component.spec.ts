@@ -15,13 +15,13 @@ describe('AppComponent', () => {
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('h1')?.textContent).toContain(
-      'Welcome courtitech-frontend'
+      'Welcome calendar-frontend'
     );
   });
 
-  it(`should have as title 'courtitech-frontend'`, () => {
+  it(`should have as title 'calendar-frontend'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('courtitech-frontend');
+    expect(app.title).toEqual('calendar-frontend');
   });
 });

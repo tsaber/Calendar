@@ -1,9 +1,9 @@
 /* eslint-disable */
 export default {
-  displayName: 'courtitech-frontend',
+  displayName: 'calendar-frontend',
   preset: './jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: './coverage/courtitech-frontend',
+  coverageDirectory: './coverage/calendar-frontend',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',

@@ -7,10 +7,10 @@ export default defineConfig({
     ...nxE2EPreset(__filename, {
       cypressDir: 'src',
       webServerCommands: {
-        default: 'nx run courtitech-frontend:serve:development',
-        production: 'nx run courtitech-frontend:serve:production',
+        default: 'nx run calendar-frontend:serve:development',
+        production: 'nx run calendar-frontend:serve:production',
       },
-      ciWebServerCommand: 'nx run courtitech-frontend:serve-static',
+      ciWebServerCommand: 'nx run calendar-frontend:serve-static',
     }),
     baseUrl: 'http://localhost:4200',
   },
