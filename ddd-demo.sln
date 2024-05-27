@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Courtitech-Domain", "Courtitech-Domain.csproj", "{35A59BC4-BEAD-403B-ABB7-21C9F80C23F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Courtitech-API", "Courtitech-API\Courtitech-API.csproj", "{2D835829-9354-4328-827B-00D13CC5BD4E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Courtitech-Application", "Courtitech-Application\Courtitech-Application.csproj", "{B8F5363B-C211-468F-8F77-AB44083C5884}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Courtitech-Infrastructure", "Courtitech-Infrastructure\Courtitech-Infrastructure.csproj", "{E9AF2D1A-2439-4C14-A11D-5494F40521D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Courtitech-Query", "Courtitech-Query\Courtitech-Query.csproj", "{C4F971C6-7245-4AE5-B33F-4680EF812825}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar-Application", "..\Calendar-Application\Calendar-Application.csproj", "{40AB4304-4EB5-4AA7-BDC2-D6F56F469963}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35A59BC4-BEAD-403B-ABB7-21C9F80C23F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35A59BC4-BEAD-403B-ABB7-21C9F80C23F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35A59BC4-BEAD-403B-ABB7-21C9F80C23F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35A59BC4-BEAD-403B-ABB7-21C9F80C23F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D835829-9354-4328-827B-00D13CC5BD4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D835829-9354-4328-827B-00D13CC5BD4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D835829-9354-4328-827B-00D13CC5BD4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D835829-9354-4328-827B-00D13CC5BD4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8F5363B-C211-468F-8F77-AB44083C5884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8F5363B-C211-468F-8F77-AB44083C5884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8F5363B-C211-468F-8F77-AB44083C5884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8F5363B-C211-468F-8F77-AB44083C5884}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9AF2D1A-2439-4C14-A11D-5494F40521D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9AF2D1A-2439-4C14-A11D-5494F40521D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9AF2D1A-2439-4C14-A11D-5494F40521D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9AF2D1A-2439-4C14-A11D-5494F40521D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4F971C6-7245-4AE5-B33F-4680EF812825}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4F971C6-7245-4AE5-B33F-4680EF812825}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4F971C6-7245-4AE5-B33F-4680EF812825}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4F971C6-7245-4AE5-B33F-4680EF812825}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40AB4304-4EB5-4AA7-BDC2-D6F56F469963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40AB4304-4EB5-4AA7-BDC2-D6F56F469963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40AB4304-4EB5-4AA7-BDC2-D6F56F469963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40AB4304-4EB5-4AA7-BDC2-D6F56F469963}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7AD4840-E411-42DD-AED6-D488F6149DB3}
+	EndGlobalSection
+EndGlobal
